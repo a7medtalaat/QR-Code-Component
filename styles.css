@@ -1,0 +1,34 @@
+* {
+  border-radius: 12px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+img {
+    width: 250px;
+    height: auto;
+}
+#mainDiv {
+    max-width: 250px;
+    max-height: auto;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+#firstPara {
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+}
+#secPara {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
